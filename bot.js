@@ -97,7 +97,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1hSuEG7oplnx4IX6HGsMOjsWb9TCqC4-F1NLjuBz5PCM/edit");
+    postMessage("https://www.dropbox.com/s/ogxqjvsm9cw3cqx/Madden%20Bros%20Rulebook%203.2.pdf?dl=0");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
