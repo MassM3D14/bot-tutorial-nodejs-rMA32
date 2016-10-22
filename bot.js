@@ -92,7 +92,7 @@ function respond() {
   } 
   else if(request.text && botRegexAd.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://goo.gl/images/9d8Nk4");
+    postMessage("https://images.google.com/imgres?imgurl=http%3A%2F%2Fi.imgur.com%2F7drHiqr.gif&imgrefurl=http%3A%2F%2Fimgur.com%2Fgallery%2F7drHiqr&docid=G_Py04H83s-3EM&tbnid=7goSXnZeEhGZGM%3A&w=312&h=213&source=sh%2Fx%2Fim");
     this.res.end();
   }
   else if(request.text && botRegexRules.test(request.text)) {
