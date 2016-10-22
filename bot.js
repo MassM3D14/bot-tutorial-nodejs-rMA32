@@ -92,7 +92,7 @@ function respond() {
   } 
   else if(request.text && botRegexAd.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.hackcollege.com/wp-content/uploads/2013/02/kno_advance.jpg");
+    postMessage("https://goo.gl/images/9d8Nk4");
     this.res.end();
   }
   else if(request.text && botRegexRules.test(request.text)) {
